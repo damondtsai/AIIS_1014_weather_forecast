@@ -11,8 +11,17 @@ export function getDbClient(): Client {
     return dbInstance;
   }
 
-  const url = process.env.DATABASE_URL?.trim() || "file:weather.db";
+  let url = process.env.DATABASE_URL?.trim() || "file:weather.db";
   const authToken = process.env.DATABASE_AUTH_TOKEN?.trim() || undefined;
+
+  // 在 Vercel 或 Serverless 雲端環境下，/var/task 目錄為唯讀，SQLite 實體檔案必須指向 /tmp/
+  if (
+    (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME || process.platform === "linux") &&
+    url.startsWith("file:") &&
+    !url.startsWith("file:/tmp/")
+  ) {
+    url = "file:/tmp/weather.db";
+  }
 
   dbInstance = createClient({
     url,
