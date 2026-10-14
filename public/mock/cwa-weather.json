@@ -1,0 +1,420 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "F-A0010-001",
+    "fields": [
+      { "id": "datasetDescription", "type": "String" },
+      { "id": "locationName", "type": "String" },
+      { "id": "elementName", "type": "String" },
+      { "id": "startTime", "type": "Timestamp" },
+      { "id": "endTime", "type": "Timestamp" },
+      { "id": "elementValue", "type": "String" }
+    ]
+  },
+  "records": {
+    "datasetDescription": "台灣各地區一週天氣預報",
+    "locations": [
+      {
+        "datasetDescription": "台灣各分區",
+        "locationsName": "台灣地區",
+        "location": [
+          {
+            "locationName": "北部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "description": "最低溫度",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "21", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "20", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "22", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "23", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "22", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "21", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "20", "measures": "攝氏度" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "description": "最高溫度",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "27", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "26", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "28", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "29", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "28", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "27", "measures": "攝氏度" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "25", "measures": "攝氏度" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "多雲短暫雨", "measures": "天氣現象" }, { "value": "08", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "陰時多雲", "measures": "天氣現象" }, { "value": "04", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "多雲時晴", "measures": "天氣現象" }, { "value": "02", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "晴時多雲", "measures": "天氣現象" }, { "value": "02", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "多雲", "measures": "天氣現象" }, { "value": "04", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "多雲短暫雨", "measures": "天氣現象" }, { "value": "08", "measures": "天氣代碼" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "陰天", "measures": "天氣現象" }, { "value": "07", "measures": "天氣代碼" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "description": "降雨機率",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "30", "measures": "百分比" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "20", "measures": "百分比" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "10", "measures": "百分比" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "10", "measures": "百分比" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "20", "measures": "百分比" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "40", "measures": "百分比" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "30", "measures": "百分比" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "description": "舒適度指數",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "舒適至微涼" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "舒適至溫暖" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "舒適至溫暖" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "舒適至微涼" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "微涼" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "中部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "21" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "32" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "32" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "29" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "多雲時晴" }, { "value": "02" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "晴天" }, { "value": "01" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "多雲時晴" }, { "value": "02" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "10" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "舒適至悶熱" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "舒適至悶熱" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "舒適至悶熱" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "舒適" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "南部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "25" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "25" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "23" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "32" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "33" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "33" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "32" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "30" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "晴天" }, { "value": "01" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "晴天" }, { "value": "01" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "晴天" }, { "value": "01" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "10" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "易中暑" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "易中暑" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "舒適至悶熱" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "東北部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "19" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "21" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "21" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "19" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "25" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "26" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "27" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "26" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "25" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "23" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "陰短暫雨" }, { "value": "11" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "陰天" }, { "value": "07" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "陰短暫雨" }, { "value": "11" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "陰天" }, { "value": "07" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "60" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "40" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "40" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "50" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "40" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "微涼至舒適" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "微涼" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "微涼" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "微涼" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "東部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "21" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "21" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "22" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "21" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "20" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "28" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "27" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "29" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "29" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "28" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "26" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "多雲時晴" }, { "value": "02" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "30" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "舒適至溫暖" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "微涼" }] }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "東南部地區",
+            "weatherElement": [
+              {
+                "elementName": "MinT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "24" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "23" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "22" }] }
+                ]
+              },
+              {
+                "elementName": "MaxT",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "29" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "31" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "29" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "28" }] }
+                ]
+              },
+              {
+                "elementName": "Wx",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "多雲時晴" }, { "value": "02" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "晴時多雲" }, { "value": "02" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "晴天" }, { "value": "01" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "多雲短暫雨" }, { "value": "08" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "多雲" }, { "value": "04" }] }
+                ]
+              },
+              {
+                "elementName": "PoP",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "10" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "20" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "30" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "20" }] }
+                ]
+              },
+              {
+                "elementName": "CI",
+                "time": [
+                  { "startTime": "2026-10-14 18:00:00", "endTime": "2026-10-15 06:00:00", "elementValue": [{ "value": "舒適至微熱" }] },
+                  { "startTime": "2026-10-15 06:00:00", "endTime": "2026-10-16 06:00:00", "elementValue": [{ "value": "舒適至微熱" }] },
+                  { "startTime": "2026-10-16 06:00:00", "endTime": "2026-10-17 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-17 06:00:00", "endTime": "2026-10-18 06:00:00", "elementValue": [{ "value": "悶熱" }] },
+                  { "startTime": "2026-10-18 06:00:00", "endTime": "2026-10-19 06:00:00", "elementValue": [{ "value": "舒適至微熱" }] },
+                  { "startTime": "2026-10-19 06:00:00", "endTime": "2026-10-20 06:00:00", "elementValue": [{ "value": "舒適" }] },
+                  { "startTime": "2026-10-20 06:00:00", "endTime": "2026-10-21 06:00:00", "elementValue": [{ "value": "舒適" }] }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
