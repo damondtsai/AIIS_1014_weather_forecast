@@ -1,9 +1,8 @@
 {
-  "framework": "nextjs",
   "crons": [
     {
       "path": "/api/weather/sync",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     }
   ]
 }
